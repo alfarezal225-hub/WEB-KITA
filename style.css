@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("asset/background-body.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.kata-kata{
+    display: flex;
+    text-align: center; 
+    flex-direction: column;
+}
+
+.kata-1{
+    color: #7D787D;
+    font-size: 80px;
+    margin-top: 250px;
+}
+
+.kata-2{
+    font-size: 70px;
+    margin-top: -70px;
+}
+.kata-3{
+    color: #7D787D;
+    font-size: 20px;
+    margin-top: -55px;
+}
+
+.tombol{
+    background-color: #232223;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 170px;
+    height: 50px;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    left: 890px;
+}
+
+.tombol:hover {
+    background-color: #7D787D;
+}
